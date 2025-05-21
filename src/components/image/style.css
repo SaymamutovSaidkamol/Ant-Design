@@ -1,0 +1,11 @@
+.image-scelaton {
+  background: linear-gradient(90deg, #ccc, #eee, #ccc);
+  background-size: 200%;
+  animation: image-scelaton 1s linear infinite;
+}
+
+@keyframes image-scelaton{
+    to{
+        background-position: 200%;
+    }
+}
